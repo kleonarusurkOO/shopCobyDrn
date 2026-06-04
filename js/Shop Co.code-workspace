@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Shop Co",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "telegram bot"
+	}
+}

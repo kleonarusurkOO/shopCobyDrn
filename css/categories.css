@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header {
+}
+.header__wrapper {
+    margin-top: 75px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.header__logo {
+}
+.nav {
+}
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin-top: 13px;
+}
+.header__item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.shop__selection {
+  font-size: 17px;
+  border: none;
+}
+.shop__option {
+      
+}
+
+.nav__text {
+    color: black;
+    text-decoration: none;
+}
+.searchnicon-wrapper {
+    display: flex;
+    gap: 30px;
+   
+}
+.search-icon{
+     color: #00000066;
+}
+.header__search-wrapper {
+    background-color: #F0F0F0;
+    padding: 12px 16px;
+    width: 577px;
+    border-radius: 62px;
+}
+
+.header__input {
+    border: none;
+    background-color: #F0F0F0;
+}
+.header__input::placeholder{
+     color: #00000066;
+}
+.icons__wrapper {
+    
+
+}
+.cart-icon {
+    margin-top: 8px;
+  
+}
+.icon {
+}
+
+.hero__wrapper{
+    
+}
+
+
+.footer {
+    background: #f2f2f2;
+    padding: 70px 80px 40px;
+    font-family: sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    max-width: 260px;
+}
+
+.footer-logo {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-social {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-title {
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #777;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background: #d7d7d7;
+    margin: 50px 0 30px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-copy {
+    color: #777;
+    font-size: 14px;
+}
+
+.footer-payments {
+    display: flex;
+    gap: 12px;
+}
+
+.payment-card {
+    background: white;
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.NewArrival {
+}
+.container {
+}
+.NewArrival-wrapper {
+    margin: 50px 0px;
+}
+.NewArr-title {
+    margin: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.new__list {
+flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.new__item-card {
+}
+.img__wrapper-new {
+    overflow: hidden;
+   
+    border-radius: 20px;
+}
+.new__img {
+    width: 269px;
+    height: 270px;
+    object-fit: cover;
+   
+}
+.new-item-title {
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+.icon__list {
+  
+    display: flex;
+    gap: 1px;
+    list-style: none;
+}
+.icon__item {
+    color: #FFC633;
+    
+}
+.star {
+     
+}
+.otzivi{
+      margin-top: 10px;
+    display: flex;
+    color: rgb(147, 147, 147);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 15px;
+}
+.stars__count {
+  
+}
+.new-price {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.old-price {
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(157, 157, 157);
+}
+.new-skidka {
+    background-color: #FF33331A;
+    height: 5px;
+    margin-top: 7px;
+    border-radius: 12px;
+    color: palevioletred;
+
+}
+
+.allprice{
+    display: flex;
+    gap: 5px;
+}
+
+hr{
+    margin: 20px auto;
+    width: 1200px;
+    background-color: #a8a7a7;
+    
+}
+
+.categories {
+    margin: 100px 0;
+}
+.container {
+}
+.categories__wrapper {
+}
+.categories__info {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin: 50px 0;
+}
+.categories__title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.categories__list {
+    margin-top: 15px;
+    gap: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    list-style: none;
+}
+.categories__item {
+}
+.categories__products {
+}
+
+.selection{
+    border: none;
+    font-size: 15px;
+}
+.new__list {
+}
+
+/*Contact*/
+.contact {
+  margin-bottom: 80px;
+}
+.container {
+}
+.contact__wrapper {
+    display: flex;
+    background-color: #000;
+    color: white;
+    padding: 40px;
+    border-radius: 60px;
+    justify-content: center;
+}
+.contact-title {
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form {
+}
+.name {
+}
+.input{
+    padding: 12px;
+}
+.phone {
+}
+.textarea {
+    width: 385px;
+    margin-top: 12px;
+    height: 200px;
+}
+.btn {
+ width: 385px;
+ padding: 12px;
+ background: #fff;   
+}

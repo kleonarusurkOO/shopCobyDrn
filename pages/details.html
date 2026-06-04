@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="/css/details.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <header class="header">
+            <div class="container">
+        <div class="header__wrapper">
+        <img src="/assets/ShopcoLogo.svg" alt="Shop Co logotip" class="header__logo">
+        <nav class="nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <select class="shop__selection" name="Shop" id="shop">
+                        <option value="shop" class="shop__option">Shop</option>
+                    </select>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="nav__text">On Sale</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="nav__text">New Arrival</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="nav__text">Brand</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="searchnicon-wrapper">
+            <div class="header__search-wrapper">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" class="header__input" placeholder="search for products">
+        </div>
+        <div class="icons__wrapper">
+            <img src="/assets/cartsvg.svg" alt="cart" class="cart-icon">
+            <img src="/assets/usericon.svg" alt="user" class="icon">
+        </div>
+        </div>
+       </div>
+       </div>
+     </header>
+
+<main>
+
+    <section class="detail">
+      <div class="container">
+          <div class="details__wrapper">
+         
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="details-info">
+        <div class="container">
+            <div class="details-info__wrapper">
+               <div class="btns">
+                <button class="tab" data-id="details">details</button>
+                <button class="tab" data-id="rating">Rating & Reviews</button>
+                <button class="tab" data-id="faqs">FAQs</button>
+               </div>
+
+               <div class="content-tab" id="details">details</div>
+               <div class="content-tab" id="rating">
+                
+                <section class="comments">
+                  
+                    <div class="container">
+
+                        <div class="comment__wrapper">
+                           <div id="rating" class="content__tab">
+
+    <div class="content-tab-wrapper">
+
+        <div class="comment-header">
+
+            <h3 class="comment-title">
+                All Reviews
+            </h3>
+
+            <button class="add-comment-btn active">
+                Write a Review
+            </button>
+
+        </div>
+
+
+
+        <form class="add-comment-modal">
+
+            <button type="button" class="comment-close-btn">
+                ✕
+            </button>
+
+            <h3 class="comment-user-name">
+                Вероника Лимонова
+            </h3>
+
+            <input
+                class="user-comment-input"
+                type="text"
+                placeholder="Add comment"
+            >
+
+            <input
+                class="user-rate-input"
+                type="number"
+                maxlength="5"
+                placeholder="Rating"
+            >
+
+            <button class="post-review-btn" type="submit">
+                Post Review
+            </button>
+
+        </form>
+
+
+
+        <ul class="comment-list">
+
+            <li class="comment-item"></li>
+
+        </ul>
+
+    </div>
+
+</div>
+                            <ul class="comments__list">
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+               </div>
+               <div class="content-tab" id="faqs">faqs</div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+     <section class="TopSelling">
+            <div class="container">
+                <div class="TopSelling-wrapper">
+                    <h1 class="NewArr-title">You may also like</h1>
+
+                    <ul class="top__list">
+                        <li class="top__item-card">
+                            <div class="top__wrapper-top">
+                                <img src="/assets/shirt1.png" alt="shirt" class="top__img">
+                            </div>
+                            <div class="item-info">
+                                <p class="new-item-title">
+                                T-SHIRT WITH TAPE DETAILS
+                            </p>
+                            <div class="otzivi">
+                                <ul class="icon__list">
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                            </ul>
+                            <p class="stars__count">4,5/5</p>
+                            </div>
+
+                            <p class="top-price">120$</p>
+                            </div>
+                        </li>
+                       <li class="top__item-card">
+                            <div class="top__wrapper-top">
+                                <img src="/assets/shirt1.png" alt="shirt" class="top__img">
+                            </div>
+                            <div class="item-info">
+                                <p class="new-item-title">
+                                T-SHIRT WITH TAPE DETAILS
+                            </p>
+                            <div class="otzivi">
+                                <ul class="icon__list">
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                            </ul>
+                            <p class="stars__count">4,5/5</p>
+                            </div>
+
+                            <p class="top-price">120$</p>
+                            </div>
+                        </li>
+                       <li class="top__item-card">
+                            <div class="top__wrapper-top">
+                                <img src="/assets/shirt1.png" alt="shirt" class="top__img">
+                            </div>
+                            <div class="item-info">
+                                <p class="new-item-title">
+                                T-SHIRT WITH TAPE DETAILS
+                            </p>
+                            <div class="otzivi">
+                                <ul class="icon__list">
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                            </ul>
+                            <p class="stars__count">4,5/5</p>
+                            </div>
+
+                            <p class="top-price">120$</p>
+                            </div>
+                        </li>
+                        <li class="top__item-card">
+                            <div class="top__wrapper-top">
+                                <img src="/assets/shirt1.png" alt="shirt" class="top__img">
+                            </div>
+                            <div class="item-info">
+                                <p class="new-item-title">
+                                T-SHIRT WITH TAPE DETAILS
+                            </p>
+                            <div class="otzivi">
+                                <ul class="icon__list">
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                                <li class="icon__item"><i class="fa-solid fa-star star"></i></li>
+                            </ul>
+                            <p class="stars__count">4,5/5</p>
+                            </div>
+
+                            <p class="top-price">120$</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+</main>
+
+
+
+
+
+<section class="contact">
+    <div class="container">
+        <div class="contact__wrapper">
+            <h1 class="contact-title">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+             <form class="form">
+      <input class="name input" type="text" placeholder="name" />
+      <input class="phone input" type="text" placeholder="+998902220808" />
+      <textarea 
+        cols="30"
+        rows="12"
+        placeholder="izoh qoldiring..."
+        class="textarea input"
+        name=""
+        id=""
+      ></textarea>
+<br>
+      <button class="btn">Send 🕊️</button>
+    </form>
+
+ 
+ 
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-left">
+
+            <h1 class="footer-logo">SHOP.CO</h1>
+
+            <p class="footer-description">
+                We have clothes that suits your style and which you're proud to wear.
+                From women to men.
+            </p>
+
+            <div class="footer-socials">
+
+                <div class="footer-social">𝕏</div>
+                <div class="footer-social">f</div>
+                <div class="footer-social">◎</div>
+                <div class="footer-social">⌾</div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">COMPANY</h3>
+
+                <p class="footer-link">About</p>
+                <p class="footer-link">Features</p>
+                <p class="footer-link">Works</p>
+                <p class="footer-link">Career</p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">HELP</h3>
+
+                <p class="footer-link">Customer Support</p>
+                <p class="footer-link">Delivery Details</p>
+                <p class="footer-link">Terms & Conditions</p>
+                <p class="footer-link">Privacy Policy</p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">FAQ</h3>
+
+                <p class="footer-link">Account</p>
+                <p class="footer-link">Manage Deliveries</p>
+                <p class="footer-link">Orders</p>
+                <p class="footer-link">Payments</p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">RESOURCES</h3>
+
+                <p class="footer-link">Free eBooks</p>
+                <p class="footer-link">Development Tutorial</p>
+                <p class="footer-link">How to - Blog</p>
+                <p class="footer-link">Youtube Playlist</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-line"></div>
+
+    <div class="footer-bottom">
+
+        <p class="footer-copy">
+            Shop.co © 2000-2023, All Rights Reserved
+        </p>
+
+        <div class="footer-payments">
+
+            <div class="payment-card">VISA</div>
+            <div class="payment-card">MC</div>
+            <div class="payment-card">PayPal</div>
+            <div class="payment-card">Pay</div>
+            <div class="payment-card">GPay</div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+ 
+   
+       <script src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+   <script src="./telegram bot/app.js"></script>
+    <script src="/js/details.js"></script>
+</body>
+</html>
